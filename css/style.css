@@ -39,7 +39,7 @@ a {
 }
 
 .main-nav ul li {
-  padding: 20px;
+  padding: 26px 20px 27px 20px;
 }
 
 #quoteButton {
@@ -51,22 +51,18 @@ a {
   color: white;
 }
 
-.main-nav ul li a {
-  padding-bottom: 2px;
+.main-menu a {
+  transition: background 1s;
 }
 
-.main-nav ul li a:hover {
-  border-bottom: 2px solid navy;
+.main-menu a:hover {
+  background-color: navy;
+  color: white;
 }
 
 .logo {
   display: block;
 }
-
-#phoneNumber a:hover {
-  border-bottom: none;
-}
-
 
 
 /* Showcase */
