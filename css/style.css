@@ -6,7 +6,6 @@
 }
 
 body {
-  font-family: Calibri, 'Gill Sans', sans-serif;
   background: white;
   color: black;
   font-size: 20px;
@@ -14,7 +13,7 @@ body {
 }
 
 a {
-  color: navy;
+  color: black;
   text-decoration: none;
 }
 
@@ -40,6 +39,7 @@ a {
 
 .main-nav ul li {
   padding: 26px 20px 27px 20px;
+  font-family: Calibri, 'Gill Sans', sans-serif;
 }
 
 #quoteButton {
@@ -67,7 +67,7 @@ a {
 
 /* Showcase */
 
-.showcase {
+/* .showcase {
   width: 100%;
   height: 500px;
   background: url('https://via.placeholder.com/1000x1000')
@@ -79,4 +79,36 @@ a {
   justify-content: flex-end;
   padding-bottom: 50px;
   margin-bottom: 20px;
+} */
+
+/* .arrows * {
+  position: absolute;
+  top: 10%;
+} */
+
+.w3-content {
+  max-width: 1500px;
 }
+
+/* .mySlides {
+  transition: background 1s;
+} */
+
+/* Main */
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 40px 0 0 0;
+  font-size: 54px;
+  color: navy;
+}
+
+.center p {
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
