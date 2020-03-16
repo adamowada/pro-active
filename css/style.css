@@ -87,7 +87,7 @@ a {
 } */
 
 .w3-content {
-  max-width: 1500px;
+  max-width: 100%;
 }
 
 /* .mySlides {
@@ -102,7 +102,7 @@ a {
 
 .center h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  padding: 40px 0 0 0;
+  padding: 40px 0 10px 0;
   font-size: 54px;
   color: navy;
 }
