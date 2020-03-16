@@ -1,0 +1,55 @@
+/* General */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Calibri, 'Gill Sans', sans-serif;
+  background: white;
+  color: black;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+a {
+  color: navy;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+/* Nav */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.main-nav ul {
+  display: flex;
+  align-items: center;
+  /* background-color: pink; */
+}
+
+.main-nav ul li {
+  padding: 30px 20px 10px 20px;
+}
+
+#quoteButton {
+  background: navy;
+  padding: 10px 20px 10px 20px;
+}
+
+#quoteButton a {
+  color: white;
+}
